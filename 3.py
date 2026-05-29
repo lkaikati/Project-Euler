@@ -5,5 +5,6 @@ while not x==1:
     if x % i == 0:
         x/=i
         y=i
-    i+=2
+    else:
+        i+=2
 print(y)
